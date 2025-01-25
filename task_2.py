@@ -19,7 +19,7 @@ class Book:
         return self.__release
 
     def year_of_purchase(self, year):
-        return f"Книга {self.__title} была куплена мной в {year} году."
+        return f"Книга \"{self.__title}\" была куплена мной в {year} году."
 
     def pages_read(self, pages_read, pages):
         return f"Было прочитано {pages_read} страниц из {pages}"
